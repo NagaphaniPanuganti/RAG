@@ -1,0 +1,6 @@
+generative-ai-hub-sdk
+langchain
+langchain_community
+hdbcli
+python-dotenv
+streamlit
