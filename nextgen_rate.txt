@@ -1,0 +1,59 @@
+Material Ledger is a tool that collects transaction data for materials whose master data is stored in material master.
+
+The material ledger uses this data to calculate prices to valuate these materials.
+
+The material ledger is the basis of actual costing. It enables material inventories to be valuated in multiple currencies and allows the use of different valuation approaches.
+
+Material Ledger as a tool fulfils two basic objectives:
+
+Ability to manage material prices in multiple currencies/valuations
+
+Actual costing
+Multiple currencies and valuation overview
+SAP Material Ledger is the multiple currency valuation. A total of three currencies and two valuation views are possible:
+Local currency (legal valuation in the currency of company code)
+
+Group valuation (corporate group valuation for reporting purposes)
+
+Profit center (profit center valuation, for transfer pricing functionality, for example)
+
+
+
+
+
+Moving Average Price/Periodic Unit Price
+
+
+The moving average price is the price that changes as a result of goods movements and the entry of invoices, and which is used to valuate a material.
+
+
+The periodic unit price is the price that changes within a period as a result of goods movements and invoice entries. If you have the material ledger active you can use this price to valuate a material after the closing entry at the period end.
+
+
+Actual costing with SAP Material Ledger is done in three steps:
+
+
+
+
+
+Preliminary valuation at standard cost and recording of price differences
+
+Price determination: calculation of periodic unit price (PUP) for single and multilevel products
+
+Revaluation of inventory with periodic unit price (PUP)
+
+
+
+
+ 
+
+Actual Cost Component Split (CCS)
+
+
+The actual cost component split groups the actual costs into buckets across multiple manufacturing levels, providing the company with a view of the major relevant elements of the total cost, such as labor costs, raw material costs, freight costs, etc. SAP Material Ledger uses the same standard cost component structure for the cost component split at actual cost.
+
+Having this information available for each product and plant combination enables the company to do important cost analysis more effectively by comparing actuals to standard costs, as well as understanding the breakdown of their costs with the functions provided by SAP Material Ledger.
+
+Since actual costing information is updated at the level of the procurement alternatives and procurement processes, it's also possible to compare different sources of supply for analysis of the actual costs.
+
+The actual cost component split that is available for the cost of goods manufactured can also be transferred to the controlling sub-module, profitability analysis.
